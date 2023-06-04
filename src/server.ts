@@ -2,7 +2,6 @@ import mongoose from 'mongoose'
 import config from './config'
 import app from './app'
 
-
 async function bootstrap() {
   try {
     await mongoose.connect(config.databaseUrl as string)

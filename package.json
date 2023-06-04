@@ -9,7 +9,10 @@
     "lint-fix": "eslint  --fix",
     "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts",
     "format-code": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "lint-prettier":"yarn lint-check && yarn format-code"
+    "lint-prettier": "yarn lint-check && yarn format-code"
+  },
+  "lint-staged": {
+    "src/**/*.ts": "yarn lint-prettier"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +24,7 @@
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^8.8.0",
     "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4"
   },
