@@ -1,15 +1,15 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
-    },
-    "auditLog": "/Users/kaisar_sarwar/All-code-base/Apollo-next-level-web/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/successes/.d87ad1afdbcc4afec6791c02c8d3967f4f42bea7-audit.json",
-    "files": [
-        {
-            "date": 1698719508517,
-            "name": "/Users/kaisar_sarwar/All-code-base/Apollo-next-level-web/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/successes/ums-2023-10-31-08-success.log",
-            "hash": "419b1cc476b1466be0506a858aa10b64bc43d4b189c798e4570f46ce35b75fd8"
-        }
-    ],
-    "hashType": "sha256"
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "/Users/kaisar_sarwar/All-code-base/Apollo-next-level-web/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/successes/.d87ad1afdbcc4afec6791c02c8d3967f4f42bea7-audit.json",
+  "files": [
+    {
+      "date": 1698719508517,
+      "name": "/Users/kaisar_sarwar/All-code-base/Apollo-next-level-web/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/successes/ums-2023-10-31-08-success.log",
+      "hash": "419b1cc476b1466be0506a858aa10b64bc43d4b189c798e4570f46ce35b75fd8"
+    }
+  ],
+  "hashType": "sha256"
 }
