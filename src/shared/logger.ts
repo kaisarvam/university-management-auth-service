@@ -17,16 +17,6 @@ const logger = createLogger({
   defaultMeta: { service: 'user-service' },
   transports: [
     new transports.Console(),
-    // new transports.File({
-    //   filename: `${path.join(
-    //     process.cwd(),
-    //     'logs',
-    //     'winston',
-    //     'successes',
-    //     'ums-%DATE%-success.log'
-    //   )}`,
-    //   level: 'info',
-    // }),
     new DailyRotateFile({
       filename: `${path.join(
         process.cwd(),
@@ -44,27 +34,17 @@ const logger = createLogger({
 })
 
 const errorLogger = createLogger({
-  level: 'info',
+  level: 'error',
   format: combine(label({ label: 'UMS' }), timestamp(), customLogFormat),
   defaultMeta: { service: 'user-service' },
   transports: [
     new transports.Console(),
-    // new transports.File({
-    //   filename: `${path.join(
-    //     process.cwd(),
-    //     'logs',
-    //     'winston',
-    //     'errors',
-    //     'ums-%DATE%-error.log'
-    //   )}`,
-    //   level: 'error',
-    // }),
     new DailyRotateFile({
       filename: `${path.join(
         process.cwd(),
         'logs',
         'winston',
-        'successes',
+        'errors',
         'ums-%DATE%-error.log'
       )}`,
       datePattern: 'YYYY-MM-DD-HH',

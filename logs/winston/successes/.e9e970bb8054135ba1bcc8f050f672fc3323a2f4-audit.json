@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/successes/.e9e970bb8054135ba1bcc8f050f672fc3323a2f4-audit.json",
+    "files": [
+        {
+            "date": 1699176680912,
+            "name": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/successes/ums-2023-11-05-15-success.log",
+            "hash": "4d582838629f782c01b867c64b7f1a1c936b4ff73bf9ff3daf6454c11728343f"
+        },
+        {
+            "date": 1699189164586,
+            "name": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/successes/ums-2023-11-05-18-success.log",
+            "hash": "f9f80031a88a95707d9e3b63d46722cac28037ec4eae68a70c2270640ae74ed4"
+        }
+    ],
+    "hashType": "sha256"
+}
