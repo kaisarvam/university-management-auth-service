@@ -1,0 +1,26 @@
+{Sat Nov 11 2023 20:54:10 } [UMS] error: Global error handler ~ User validation failed: role: Path `role` is required.
+{Sat Nov 11 2023 20:54:15 } [UMS] error: Unhandled rejection [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]
+{Sat Nov 11 2023 20:54:34 } [UMS] error: Global error handler ~ User validation failed: role: Path `role` is required.
+{Sat Nov 11 2023 20:54:39 } [UMS] error: Unhandled rejection [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]

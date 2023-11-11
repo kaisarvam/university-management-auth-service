@@ -1,0 +1,24 @@
+{Thu Nov 09 2023 8:39:37 } [UMS] error: Global error handler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]
+{Thu Nov 09 2023 8:40:21 } [UMS] error: Global error handler ~ [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "body",
+      "role"
+    ],
+    "message": "Role is required"
+  }
+]

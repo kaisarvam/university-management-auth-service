@@ -1,20 +1,35 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/errors/.5610118776b682e67a38a0781550b062ca479e54-audit.json",
-  "files": [
-    {
-      "date": 1699176680913,
-      "name": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/errors/ums-2023-11-05-15-error.log",
-      "hash": "440f076698f295fef9fa252d42f1ad775aac2454754c5e9b15c0329771e39165"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1699189164590,
-      "name": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/errors/ums-2023-11-05-18-error.log",
-      "hash": "da2c2b56d1806516aa2d7dade538be923ea5435d1c84f0065907d9d2346f21f0"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/errors/.5610118776b682e67a38a0781550b062ca479e54-audit.json",
+    "files": [
+        {
+            "date": 1699176680913,
+            "name": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/errors/ums-2023-11-05-15-error.log",
+            "hash": "440f076698f295fef9fa252d42f1ad775aac2454754c5e9b15c0329771e39165"
+        },
+        {
+            "date": 1699189164590,
+            "name": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/errors/ums-2023-11-05-18-error.log",
+            "hash": "da2c2b56d1806516aa2d7dade538be923ea5435d1c84f0065907d9d2346f21f0"
+        },
+        {
+            "date": 1699355775487,
+            "name": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/errors/ums-2023-11-07-17-error.log",
+            "hash": "102be5168bc6e7bf1b5da428fe7df25188b49003c03dfec8785725c81f21a1f0"
+        },
+        {
+            "date": 1699497386674,
+            "name": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/errors/ums-2023-11-09-08-error.log",
+            "hash": "b0f4667fc9c99a64e25c06d0a85871130b1412b9b31a262dff03a34d5e519566"
+        },
+        {
+            "date": 1699714432041,
+            "name": "/Users/kaisar_sarwar/Next-level-web-dev/backend/university-management/auth-service-backend/university-management-auth-service/logs/winston/errors/ums-2023-11-11-20-error.log",
+            "hash": "cfb66a5a2279099610616e3b7a5842512e37a99d1990ccbc439ad452e3bd1c57"
+        }
+    ],
+    "hashType": "sha256"
 }

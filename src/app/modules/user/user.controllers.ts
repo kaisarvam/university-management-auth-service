@@ -1,7 +1,7 @@
 import { RequestHandler } from 'express'
 import { UserService } from './user.services'
 
-export const createUserController: RequestHandler = async (req, res, next) => {
+const createUser: RequestHandler = async (req, res, next) => {
   try {
     const { id, password, role } = req.body
     const result = await UserService.createUser({ id, password, role })
@@ -13,4 +13,8 @@ export const createUserController: RequestHandler = async (req, res, next) => {
   } catch (err) {
     next(err)
   }
+}
+
+export default {
+  createUser,
 }
